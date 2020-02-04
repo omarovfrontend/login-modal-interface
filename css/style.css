@@ -37,9 +37,7 @@ body {
     border-radius: 5px;
 }
 
-.login-form-blue::after,
-.login-form-green::after,
-.login-form-red::after {
+.login-form::after {
     position: absolute;
     content: "x";
     top: 0;
@@ -55,30 +53,30 @@ body {
     cursor: pointer;
 }
 
-.login-form-blue::after,
-.login-form-btn-blue {
+.login-modal-blue .login-form::after,
+.login-modal-blue .login-form-btn {
     background-color: #f36069;
 }
 
-.login-form-btn-blue:hover {
+.login-modal-blue .login-form-btn:hover {
     background-color: #ec4a55;
 }
 
-.login-form-green::after,
-.login-form-btn-green {
+.login-modal-green .login-form::after,
+.login-modal-green .login-form-btn {
     background-color: #607bf3;
 }
 
-.login-form-btn-green:hover {
+.login-modal-green .login-form-btn:hover {
     background-color: #4561df;
 }
 
-.login-form-red::after,
-.login-form-btn-red {
+.login-modal-red .login-form::after,
+.login-modal-red .login-form-btn {
     background-color: #5ac7a5;
 }
 
-.login-form-btn-red:hover {
+.login-modal-red .login-form-btn:hover {
     background-color: #42b490;
 }
 
@@ -116,22 +114,22 @@ body {
     cursor: pointer;
 }
 
-.sign-form {
+.sign-up {
     margin-top: 5px;
 }
 
-.sign-form p {
+.sign-up-text {
     margin-bottom: 13px;
 }
 
-.sign-form-span-blue {
+.login-modal-blue .sign-up-link {
     color: #f3616a;
 }
 
-.sign-form-span-green {
+.login-modal-green .sign-up-link {
     color: #607bf3;
 }
 
-.sign-form-span-red {
+.login-modal-red .sign-up-link {
     color: #5ac7a5;
 }
