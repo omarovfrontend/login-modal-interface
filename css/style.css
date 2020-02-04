@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.login-modal {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.login-modal-blue {
+    background-color: #5a6fc7;
+}
+
+.login-modal-green {
+    background-color: #5ac7a5;
+}
+
+.login-modal-red {
+    background-color: #c75a5a;
+}
+
+.login-form {
+    position: relative;
+    display: flex;
+    width: 480px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.login-form-blue::after,
+.login-form-green::after,
+.login-form-red::after {
+    position: absolute;
+    content: "x";
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    width: 30px;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+.login-form-blue::after,
+.login-form-btn-blue {
+    background-color: #f36069;
+}
+
+.login-form-btn-blue:hover {
+    background-color: #ec4a55;
+}
+
+.login-form-green::after,
+.login-form-btn-green {
+    background-color: #607bf3;
+}
+
+.login-form-btn-green:hover {
+    background-color: #4561df;
+}
+
+.login-form-red::after,
+.login-form-btn-red {
+    background-color: #5ac7a5;
+}
+
+.login-form-btn-red:hover {
+    background-color: #42b490;
+}
+
+.login-form p {
+    font-size: 12px;
+    color: #828282;
+}
+
+.subscribe-form {
+    min-width: 240px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.login-form-text,
+.login-form-password {
+    padding: 10px;
+    border: 1px solid #b6b6b6;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.login-form-text::placeholder,
+.login-form-password::placeholder {
+    color: #b6b6b6;
+}
+
+.login-form-btn {
+    text-transform: uppercase;
+    border: none;
+    font: inherit;
+    color: #fff;
+    padding: 12px 36px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sign-form {
+    margin-top: 5px;
+}
+
+.sign-form p {
+    margin-bottom: 13px;
+}
+
+.sign-form-span-blue {
+    color: #f3616a;
+}
+
+.sign-form-span-green {
+    color: #607bf3;
+}
+
+.sign-form-span-red {
+    color: #5ac7a5;
+}
