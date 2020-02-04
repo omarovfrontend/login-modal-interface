@@ -37,24 +37,23 @@ body {
     border-radius: 5px;
 }
 
-.login-form::after {
+.login-modal-close {
     position: absolute;
-    content: "x";
     top: 0;
     right: 0;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
     width: 30px;
-    height: 25px;
-    padding-top: 5px;
+    height: 30px;
+    border: 0;
     text-align: center;
     border-radius: 0 5px 0 5px;
     cursor: pointer;
 }
 
-.login-modal-blue .login-form::after,
-.login-modal-blue .login-form-btn {
+.login-modal-blue .login-form-btn,
+.login-modal-blue .login-modal-close {
     background-color: #f36069;
 }
 
@@ -62,8 +61,8 @@ body {
     background-color: #ec4a55;
 }
 
-.login-modal-green .login-form::after,
-.login-modal-green .login-form-btn {
+.login-modal-green .login-form-btn,
+.login-modal-green .login-modal-close {
     background-color: #607bf3;
 }
 
@@ -71,8 +70,8 @@ body {
     background-color: #4561df;
 }
 
-.login-modal-red .login-form::after,
-.login-modal-red .login-form-btn {
+.login-modal-red .login-form-btn,
+.login-modal-red .login-modal-close {
     background-color: #5ac7a5;
 }
 
@@ -80,7 +79,7 @@ body {
     background-color: #42b490;
 }
 
-.login-form p {
+.sign-up-text {
     font-size: 12px;
     color: #828282;
 }
