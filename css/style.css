@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.login-modal {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.login-modal-blue {
+    background-color: #5a6fc7;
+}
+
+.login-modal-green {
+    background-color: #5ac7a5;
+}
+
+.login-modal-red {
+    background-color: #c75a5a;
+}
+
+.login-form {
+    position: relative;
+    display: flex;
+    width: 480px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.login-modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    border-radius: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+.login-modal-blue .login-form-btn,
+.login-modal-blue .login-modal-close {
+    background-color: #f36069;
+}
+
+.login-modal-blue .login-form-btn:hover {
+    background-color: #ec4a55;
+}
+
+.login-modal-green .login-form-btn,
+.login-modal-green .login-modal-close {
+    background-color: #607bf3;
+}
+
+.login-modal-green .login-form-btn:hover {
+    background-color: #4561df;
+}
+
+.login-modal-red .login-form-btn,
+.login-modal-red .login-modal-close {
+    background-color: #5ac7a5;
+}
+
+.login-modal-red .login-form-btn:hover {
+    background-color: #42b490;
+}
+
+.sign-up-text {
+    font-size: 12px;
+    color: #828282;
+}
+
+.subscribe-form {
+    min-width: 240px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.login-form-text,
+.login-form-password {
+    padding: 10px;
+    border: 1px solid #b6b6b6;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.login-form-text::placeholder,
+.login-form-password::placeholder {
+    color: #b6b6b6;
+}
+
+.login-form-btn {
+    text-transform: uppercase;
+    border: none;
+    font: inherit;
+    color: #fff;
+    padding: 12px 36px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sign-up {
+    padding-top: 5px;
+}
+
+.sign-up-text {
+    margin-bottom: 13px;
+}
+
+.login-modal-blue .sign-up-link {
+    color: #f3616a;
+}
+
+.login-modal-green .sign-up-link {
+    color: #607bf3;
+}
+
+.login-modal-red .sign-up-link {
+    color: #5ac7a5;
+}
